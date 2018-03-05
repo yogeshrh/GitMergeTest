@@ -10,8 +10,8 @@
     <SourceDirectory val="Source"/>
     <ExportsDirectory val="Exports"/>
     <GUID val="{25D4DBFC-ED50-4BED-886D-19666810A0AC}"/>
-    <Version min="13021"/>
-    <SourceVersion val="13021.00"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="13030.00"/>
   </_Project>
 
 </Application>

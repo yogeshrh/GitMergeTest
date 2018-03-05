@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="13021"/>
+    <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -27,12 +27,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736758" _time="50892" date="05/03/2018" time="14:08:12"/>
+          <LastModified _date="736758" _time="55455" date="05/03/2018" time="15:24:15"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
           <Columns>
-            <Column id="10485761" name="val1">
+            <Column id="10485761" name="value1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="100"/>
@@ -41,7 +41,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="10485762" name="val2">
+            <Column id="10485762" name="value2">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="10"/>
@@ -51,7 +51,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="10485763" name="val3">
+            <Column id="10485763" name="value3">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" id="1"/>
                 <Picture id="157" valUnicode="100"/>
@@ -59,13 +59,13 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="10485764" name="val4">
+            <Column id="10485764" name="value4">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" id="1"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="10485765" name="val5">
+            <Column id="10485765" name="value5">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_LOGICAL" id="1"/>
                 <_FieldStyle id="276" val="1"/>
@@ -223,11 +223,11 @@
               <LogicLine>
                 <Remark FlowIsn="10485768">
                   <Type val="2"/>
-                  <Text val="Update comment initial commit"/>
+                  <Text val="Update comment initial commit+ branch B"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="10485769" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Alert in initial commit" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="10485769" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Alert in initial commit+ branch B" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -245,12 +245,13 @@
             </PropertyList>
             <Control _test_id="1" id="10485761">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="Label1_IC"/>
+                <Text id="19" valUnicode="Label1_B"/>
                 <X id="21" val="23"/>
                 <Y id="22" val="18"/>
                 <Width id="23" val="71"/>
                 <Height id="24" val="14"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="3" id="10485763">
@@ -259,18 +260,20 @@
                 <Y id="22" val="18"/>
                 <Width id="23" val="77"/>
                 <Height id="24" val="14"/>
-                <ControlName id="46" val="Text1_IC"/>
+                <ControlName id="46" val="Text1_B"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
             <Control _test_id="2" id="10485762">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="Label2_IC"/>
+                <Text id="19" valUnicode="Label2_B"/>
                 <X id="21" val="23"/>
                 <Y id="22" val="66"/>
                 <Width id="23" val="71"/>
                 <Height id="24" val="17"/>
                 <EnableRTF id="69"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="4" id="10485764">
@@ -279,7 +282,8 @@
                 <Y id="22" val="66"/>
                 <Width id="23" val="76"/>
                 <Height id="24" val="16"/>
-                <ControlName id="46" val="Text2_IC"/>
+                <ControlName id="46" val="Text2_B"/>
+                <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
