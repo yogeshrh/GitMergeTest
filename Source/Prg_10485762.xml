@@ -27,47 +27,48 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736758" _time="54581" date="05/03/2018" time="15:09:41"/>
+          <LastModified _date="736758" _time="58034" date="05/03/2018" time="16:07:14"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
           <Columns>
-            <Column id="10485761" name="val_1">
+            <Column id="10485761" name="v1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="100"/>
+                <Picture id="157" valUnicode="200"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="100"/>
+                <Size id="174" val="200"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="10485762" name="val_2">
+            <Column id="10485762" name="v2">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="10"/>
+                <Picture id="157" valUnicode="20"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="10"/>
+                <_Whole id="182" val="20"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="10485763" name="val_3">
+            <Column id="10485763" name="v3">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" id="1"/>
-                <Picture id="157" valUnicode="100"/>
-                <Size id="174" val="200"/>
+                <Picture id="157" valUnicode="200"/>
+                <Size id="174" val="400"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="10485764" name="val_4">
+            <Column id="10485764" name="v4">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" id="1"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="10485765" name="val_5">
+            <Column id="10485765" name="v5">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_LOGICAL" id="1"/>
+                <Picture id="157" valUnicode="6"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
