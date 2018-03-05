@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Application>
   <Header>
-    <Version val="13021"/>
+    <Version val="13030.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -25,7 +25,11 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
+<<<<<<< .merge_file_a09292
           <LastModified _date="736758" _time="56415" date="05/03/2018" time="15:40:15"/>
+=======
+          <LastModified _date="736758" _time="55455" date="05/03/2018" time="15:24:15"/>
+>>>>>>> .merge_file_a16908
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -221,11 +225,11 @@
               <LogicLine>
                 <Remark FlowIsn="10485768">
                   <Type val="2"/>
-                  <Text val="Update comment initial commit"/>
+                  <Text val="Update comment initial commit+ branch B"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="10485769" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Alert in initial commit" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="10485769" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Alert in initial commit+ branch B" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
