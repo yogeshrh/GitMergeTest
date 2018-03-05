@@ -5,7 +5,7 @@
     <ProjectName val="GitMergeTest"/>
     <VCProjectID val="0"/>
     <VCActive val="Y"/>
-    <WorkOffline val="Y"/>
+    <WorkOffline val="N"/>
     <VCProjectName val="."/>
     <SourceDirectory val="Source"/>
     <ExportsDirectory val="Exports"/>
